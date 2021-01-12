@@ -95,6 +95,7 @@ int solve_sudoku()
 {
     int row;
     int col;
+    
     //if all cells are assigned then the sudoku is already solved
     //pass by reference because number_unassigned will change the values of row and col
     if(number_unassigned(&row, &col) == 0)
